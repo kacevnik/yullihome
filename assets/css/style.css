@@ -321,7 +321,7 @@ textarea.simple-input{height: 70px; line-height: 18px; padding: 10px 0;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 header{position: absolute; z-index: 9; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
 .header-wrapper{position: absolute; left: 0; top: 0; width: 100%; height: 100%; transition: background .3s; -webkit-transition: background .3s;}
-nav a{background: -moz-linear-gradient(left, currentColor 0%, currentColor 100%); background: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%); background: linear-gradient(to right, currentColor 0%, currentColor 100%); background-repeat: no-repeat; background-size: 10000px 2px; background-position: center 0.7em; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; background-size: 0px 2px; background-position: center 0.7em;}
+nav a{background: -moz-linear-gradient(left, currentColor 0%, currentColor 100%); background: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%); background: linear-gradient(to right, currentColor 0%, currentColor 100%); background-repeat: no-repeat; background-size: 10000px 2px; background-position: center 0.7em; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; background-size: 0px 2px; background-position: center 0.7em; background: none;}
 nav a:hover, nav li.active > a{-webkit-transition: all 30s ease-out; transition: all 30s ease-out; background-size: 10000px 2px;}
 nav li.active > a{transition: none; -webkit-transition: none;}
 .toggle-menu{width: 19px; height: 19px; position: relative; display: inline-block; vertical-align: middle; margin-right: -20px; cursor: pointer; top: 10px; left: 10px;}
