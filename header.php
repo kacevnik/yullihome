@@ -87,7 +87,16 @@
                 esc_html_e('Please assign primary menu in wp-admin->Appearance->Menus', 'ivy');
             echo '</div>';
         } ?>
+        <span>
+                <?php
+        if (!empty($header_twitter)) {
+            echo '<a href="tel:'.$header_twitter.'">'.$header_twitter.'</a><br>';
+        } if (!empty($header_google)) {
+             echo  '<a href="mailto:'.$header_google.'">'.$header_google.'</a>';
+        }
 
+        ?>
+        </span>
         <div class="hamburger-icon">
             <span></span>
             <span></span>
@@ -99,15 +108,13 @@
         if (!empty($header_instagram)) {
             $output .='<a class="entry" href="'.esc_url($header_instagram).'" target="_blank"><i class="fa fa-instagram"></i></a>';
         } if (!empty($header_facebook)) {
-            $output .= '<a class="entry" href="'.esc_url($header_facebook).'" target="_blank"><i class="fa fa-facebook"></i></a>';
-        } if (!empty($header_twitter)) {
-            $output .= '<a class="entry" href="'.esc_url($header_twitter).'" target="_blank"><i class="fa fa-twitter"></i></a>';
-        } if (!empty($header_google)) {
-            $output .= '<a class="entry" href="'.esc_url($header_google).'" target="_blank"><i class="fa fa-google-plus"></i></a>';
+            $output .= '<a class="entry" href="'.esc_url($header_facebook).'" target="_blank"><i class="fa fa-vk"></i></a>';
         }
             $output .= '</div>';
         echo wp_kses_post($output);
         ?>
+        <div>
+    </div>
     </div>
     <div class="navigation-wrapper">
         <nav>
