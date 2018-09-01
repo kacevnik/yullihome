@@ -37,7 +37,7 @@ function social_links($footer_instagram='', $footer_facebook='', $footer_twitter
     if (!empty($footer_instagram)) {
         $output .='<a class="entry" href="'.esc_url($footer_instagram).'" target="_blank"><i class="fa fa-instagram"></i></a>';
     } if (!empty($footer_facebook)) {
-        $output .= '<a class="entry" href="'.esc_url($footer_facebook).'" target="_blank"><i class="fa fa-facebook"></i></a>';
+        $output .= '<a class="entry" href="'.esc_url($footer_facebook).'" target="_blank"><i class="fa fa-vk"></i></a>';
     } if (!empty($footer_twitter)) {
         $output .= '<a class="entry" href="'.esc_url($footer_twitter).'" target="_blank"><i class="fa fa-twitter"></i></a>';
     } if (!empty($footer_google)) {
