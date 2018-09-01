@@ -623,7 +623,7 @@ a:hover .portfolio-hover-3 .align{border-color: #fff; transition-delay: .3s; -we
 .portfolio-5{padding-bottom: 70px;}
 .portfolio-5 > *[class*="col"]:nth-child(3n+1){clear: both;}
 .portfolio-5 > *[class*="col"]:nth-child(3n+1) .portfolio-preview-5{top: 65px;}
-.portfolio-5 > *[class*="col"]:nth-child(3n) .portfolio-preview-5{top: 115px;}
+.portfolio-5 > *[class*="col"]:nth-child(3n) .portfolio-preview-5{top: 86px;}
 .portfolio-5 > *[class*="col"]:nth-child(6n+1) .title, .portfolio-5 > *[class*="col"]:nth-child(6n+2) .title, .portfolio-5 > *[class*="col"]:nth-child(6n+3) .title{float: right; text-align: left;}
 .portfolio-5 > *[class*="col"]:nth-child(6n) .portfolio-preview-5, .portfolio-5 > *[class*="col"]:nth-child(6n-1) .portfolio-preview-5, .portfolio-5 > *[class*="col"]:nth-child(6n-2) .portfolio-preview-5{left: 80px;}
 .portfolio-preview-5{max-width: 440px; margin: 0 auto 50px auto; position: relative;}
