@@ -1380,3 +1380,28 @@ a:hover .portfolio-hover-2{opacity: 1; transition: all .5s; -webkit-transition: 
 }
 
 .wpb_wrapper p {line-height: 1.75;}
+
+.kdv_show_menu{
+	margin: 25px 0 0 400px;
+}
+
+.kdv_show_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.kdv_show_menu ul li{
+	float: left;
+	margin: 0 35px 0 0;
+}
+
+.kdv_show_menu ul li a{
+	font-size: 26px;
+}
+
+
+
+
+
+

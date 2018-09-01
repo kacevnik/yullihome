@@ -79,6 +79,15 @@
             <a id="logo" href="<?php echo esc_url(home_url('/'))?>"><img src="<?php echo THEME_URI?>/assets/img/logo.png" alt="<?php print esc_attr('logo' )?>" /></a>
         <?php } ?>
 
+        <?php
+        if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'primary' ) ) {
+            wp_nav_menu( array('container' => 'div', 'theme_location' => 'primary', 'container_class' => 'kdv_show_menu' ) );
+        } else {
+            echo '<div class="sa">';
+                esc_html_e('Please assign primary menu in wp-admin->Appearance->Menus', 'ivy');
+            echo '</div>';
+        } ?>
+
         <div class="hamburger-icon">
             <span></span>
             <span></span>
