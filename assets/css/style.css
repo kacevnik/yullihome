@@ -302,7 +302,7 @@ textarea.simple-input{height: 70px; line-height: 18px; padding: 10px 0;}
 .swiper-pagination.relative-pagination{position: relative; bottom: auto!important; margin-top: 30px;}
 .swiper-container-vertical > .swiper-pagination-bullets{right: auto!important; left: 30px;}
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet{margin: 10px 0!important;}
-.swiper-pager{font-size: 18px; color: #000; font-weight: 700; line-height: 18px; height: 18px; text-align: center; width: 210px; left: 50%; margin-left: -105px; position: absolute; bottom: 15px; z-index: 1; text-align: center;}
+.swiper-pager{display: none; font-size: 18px; color: #000; font-weight: 700; line-height: 18px; height: 18px; text-align: center; width: 210px; left: 50%; margin-left: -105px; position: absolute; bottom: 15px; z-index: 1; text-align: center;}
 .swiper-pager:before{width: 110px; height: 1px; background: currentColor; position: absolute; content: ""; left: 50%; margin-left: -55px; top: 50%;}
 .swiper-pager-current{width: 45px; position: absolute; left: 0; top: -2px; font-size: 22px;}
 .swiper-pager-total{width: 45px; position: absolute; right: 0; top: 0;}
