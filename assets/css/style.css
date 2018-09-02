@@ -1396,6 +1396,16 @@ a:hover .portfolio-hover-2{opacity: 1; transition: all .5s; -webkit-transition: 
 	margin: 0 35px 0 0;
 }
 
+@media(max-width: 990px){
+	.kdv_show_menu{
+		display: none;
+	}
+
+	.kdv_adres{
+		display: none;
+	}
+}
+
 .kdv_show_menu ul li a{
 	font-size: 26px;
 }

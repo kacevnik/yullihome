@@ -87,7 +87,7 @@
                 esc_html_e('Please assign primary menu in wp-admin->Appearance->Menus', 'ivy');
             echo '</div>';
         } ?>
-        <span>
+        <span class="kdv_adres">
                 <?php
         if (!empty($header_twitter)) {
             echo '<a href="tel:'.$header_twitter.'">'.$header_twitter.'</a><br>';

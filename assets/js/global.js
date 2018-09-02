@@ -24,6 +24,10 @@ var _functions = {};
 
 jQuery(function($) {
 
+	$('.valign-middle').on('click', function(){
+		document.location.href = $(this).find('a').attr('href');
+	});
+
 	"use strict";
 
 	/*================*/
